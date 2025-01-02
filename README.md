@@ -4,14 +4,26 @@ A powerful Python-based video processing tool that runs on Google Colab, designe
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1I7l0xPchH-_95GmkyHY7rIfRn-ECTa_r?usp=sharing)
 
+## 🎮 Interface
+
+![BulkVision Controls Interface](./assets/controls-interface.png)
+
+The intuitive control panel allows you to:
+- Set input/output folders and watermark path
+- Adjust video and audio parameters using sliders
+- Toggle video and watermark flipping
+- Select watermark position
+- Monitor processing progress
+
 ## 🌟 Features
 
 - **Batch Processing**: Process multiple videos simultaneously
 - **Video Enhancement**:
-  - Speed adjustment
-  - Pitch control
-  - Brightness, contrast, and saturation adjustment
-  - Volume boost
+  - Speed adjustment (0.5x to 2.0x)
+  - Pitch control (0.5x to 2.0x)
+  - Brightness (-1.0 to 1.0)
+  - Contrast (0.0 to 2.0)
+  - Saturation (0.0 to 2.0)
 - **Watermark Management**:
   - Custom watermark positioning (top-right, top-left, bottom-right, bottom-left)
   - Adjustable watermark size
@@ -127,5 +139,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Google Colab for GPU support
 - NVIDIA for NVENC encoding
 - IPython widgets for the UI
+
 
 Made with ❤️ for the Creative Coders Consortium (C³) community
